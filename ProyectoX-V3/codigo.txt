@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #ffffff;
+  padding: 0px;
+  margin: 0px;
+  background: rgb(40, 40, 41);
+}
+
+nav ul {
+    color: red;
+    position: fixed;
+    left: 10px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.div1 {
+  float: left;
+  padding: 0px;
+  margin-left: 150px;
+  margin-right: 90;
+  background-color: #34bdc7;
+  font-family: sans-serif;
+  height: 165px; /* Primera fila */
+}
+
+.div2 {
+  float: left;
+  padding: 0px;
+  margin-left: 150px;
+  margin-right: 90;
+  background-color: #e2ce1c;
+  font-family: sans-serif;
+  height: 165px; /* Segunda fila */
+}
+
+.div3 {
+  float: left;
+  padding: 0px;
+  margin-left: 150px;
+  margin-right: 90;
+  background-color: #e7700f;
+  font-family: sans-serif;
+  height: 165px; /* Tercera fila */
+}
+
+.div4 {
+  float: left;
+  padding: 0px;
+  margin-left: 150px;
+  margin-right: 90;
+  background-color: #df1a1a;
+  font-family: sans-serif;
+  height: 165px; /* cuarta fila */
+}
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="#"></a>Inicio</li>
+          <li><a href="#"></a>Nosotros</li>
+          <li><a href="#"></a>Perros</li>
+          <li><a href="#"></a>Gatos</li>
+          <li><a href="#"></a>Contactos</li>
+        </ul>
+      </nav>
+
+<section>  
+  <div class="div1">
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </div> 
+    <div class="div2">
+      <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+      <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    </div>  
+        <div class="div3">
+          <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+          <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+        </div>  
+            <div class="div4">
+              <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+              <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+            </div>
+</section>
+
+</body>
+</html>
